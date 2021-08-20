@@ -1,0 +1,147 @@
+body {
+  font-family: iransans;
+  direction: rtl;
+
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 100px auto;
+}
+
+.card {
+  position: relative;
+  margin: 70px auto;
+  width: 400px;
+  height: 475px;
+  background-color: #fff;
+
+  color: #fff;
+  border-radius: 17px;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  -ms-border-radius: 17px;
+  -o-border-radius: 17px;
+
+  -webkit-box-shadow: -3px 1px 20px -3px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: -3px 1px 20px -3px rgba(0, 0, 0, 0.33);
+  box-shadow: -3px 1px 20px -3px rgba(0, 0, 0, 0.33);
+}
+
+.card-header {
+  
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 7px;
+  background-color: #0077c0;
+  border-top: 7px solid  transparent;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  
+}
+.card-header p{
+    text-align: center;
+    font-size: 18px;
+   margin-bottom: 5px;
+   
+}
+.form-content {
+  padding-top: 50px;
+  width: 100%;
+  height: 100%;
+}
+.input-field {
+  padding: 0 20px;
+  width: 100%;
+}
+.input-field input {
+  width: 100%;
+  border: 2px solid #dbdbdb;
+  padding: 10px 15px;
+  outline: none;
+  font-family: iransans;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.input-field input:focus{
+  border: 2px solid #0077c0;
+}
+.input-field input::placeholder {
+  font-family: iransans;
+  padding: 5px 6px;
+  outline: none;
+}
+.input-field textarea {
+  width: 355px;
+  max-width: 355px;
+  min-width: 355px;
+  min-height: 70px;
+  max-height: 80px;
+  outline: none;
+  border: 2px solid #dbdbdb;
+  font-family: iransans;
+  padding: 10px 15px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+.input-field textarea:focus{
+  border: 2px solid #0077c0;
+}
+.btn {
+  padding: 10px;
+  width: 130px;
+  border: none;
+  outline: none;
+  font-family: iransans;
+  font-size: 14px;
+  color: #fff;
+  margin: 30px 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  cursor: pointer;
+  transition: background-color linear 0.2s;
+  -webkit-transition: background-color linear 0.2s;
+  -moz-transition: background-color linear 0.2s;
+  -ms-transition: background-color linear 0.2s;
+  -o-transition: background-color linear 0.2s;
+}
+.btn-send {
+  background-color: #0077c0;
+}
+.btn-send:hover {
+  background-color: #065688;
+}
+.btn-reset {
+  background-color: #c91d0a;
+  float: left;
+}
+
+.btn-reset:hover {
+  background-color: #9b1a0c;
+}
+
+#loaders {
+  color: #0077c0;
+  
+  text-align: center;
+  display: none;
+   
+}
